@@ -38,6 +38,7 @@ public class Kalkulator extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         Hasil = new javax.swing.JTextArea();
+        jPanel1 = new javax.swing.JPanel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(null);
@@ -121,6 +122,10 @@ public class Kalkulator extends javax.swing.JFrame {
 
         getContentPane().add(jScrollPane1);
         jScrollPane1.setBounds(200, 300, 166, 96);
+
+        jPanel1.setBackground(new java.awt.Color(0, 102, 204));
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 620, 440);
 
         setBounds(0, 0, 633, 472);
     }// </editor-fold>//GEN-END:initComponents
@@ -217,6 +222,7 @@ public class Kalkulator extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     // End of variables declaration//GEN-END:variables
 }
